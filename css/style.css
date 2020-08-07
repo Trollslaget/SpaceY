@@ -110,9 +110,9 @@ line-height: 29px;
 
 .rellax {
     position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 99;
+    top: 500;
+    right: 100px;
+    z-index: 9;
     max-width: 300px;
 }
 .footer {
