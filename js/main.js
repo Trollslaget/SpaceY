@@ -1,5 +1,3 @@
-const { AOS } = require("./aos");
-
 var instance = new vidbg('.video', {
     mp4: 'video/world.mp4', // URL or relative path to MP4 video
     webm: 'video/world.webm', // URL or relative path to webm video
@@ -8,7 +6,7 @@ var instance = new vidbg('.video', {
   });
 
   var rellax = new Rellax('.rellax', {
-    speed: 12,
+    speed: 16,
     center: false,
     wrapper: null,
     round: true,
